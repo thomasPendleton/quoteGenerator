@@ -43,6 +43,7 @@ async function getQuotes() {
   } catch (err) {
     //   Catch error here
     console.log(err)
+    getQuotes()
   }
 }
 
